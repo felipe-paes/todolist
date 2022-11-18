@@ -10,6 +10,11 @@
 </head>
 <body>
     
+    <form class="container" action="create" method="POST">
+        <input name='name' class="form-control"/>
+        <button class='btn btn-outline-primary'>Salvar</button>
+    </form>
+
     <table class="table table-hover">
 
         {% for task in tasks: %}
